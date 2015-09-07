@@ -1,0 +1,45 @@
+Vehicle Collection
+
+	Create Collection(table) Statement -- CS441.createCollection("vehicle")
+
+	Add a New Document(row/tuple) Statement(example) -- CS441.vehicle.insert({
+								vehicle_id: <id>,
+								vehiclename: "<name of vehicle>",
+								vehiclecapacity: <number>,
+								vehiclemanufacturer: "<manufacturer name>",
+								vehiclemodel: "<model name>",
+								vehicleyear: <year>,
+							     })
+
+Vehicle Fare Details
+
+	Create Collection(table) Statement -- CS441.createCollection("vehicle_fare_details")	
+
+	Add a New Document(row/tuple) Statement(example) -- CS441.vehicle_fare_details.insert({
+								vehiclefare_id: <id>,
+								priceperzone: <number>,
+								numberofzonesbeforeelevated: <number>,
+								elevatedpriceperzone: <number>
+							     })	
+
+Vehicle Type Details
+
+	Create Collection(table) Statement -- CS441.createCollection("vehicle_type_details")	
+
+	Add a New Document(row/tuple) Statement(example) -- CS441.vehicle_type_details.insert({
+								vehicletype_id: <id>,
+								vehicletypename: "<name>"
+							     })		
+
+Vehicle Providers Collection
+
+	Create Collection(table) Statement -- CS441.createCollection("vehicle_providers")
+
+	Add a New Document(row/tuple) Statement(example) -- CS441.vehicle_providers.insert({
+								provider_id: <id>,
+								providername: "<name of provider>",
+								providergdp: "<gdp>",
+								providerstreetaddress: "<address>",
+								vehicleyear: <year>,
+							     })
+		
